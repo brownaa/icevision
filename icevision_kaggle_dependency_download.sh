@@ -34,6 +34,7 @@ case ${target} in
 
       echo "- Downloading mmcv"
       pip download --dest "." mmcv-full=="1.3.17" -f https://download.openmmlab.com/mmcv/dist/cpu/torch1.10.0/index.html
+   ;;
 
 
 echo ""
