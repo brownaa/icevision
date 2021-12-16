@@ -35,7 +35,12 @@ case ${target} in
       echo "- Downloading mmcv"
       pip download --dest "." mmcv-full=="1.3.17" -f https://download.openmmlab.com/mmcv/dist/cpu/torch1.10.0/index.html
    ;;
-
+   
+   *)  
+      echo "Coud not install icevision. Check out which torch and torchvision versions are compatible with your CUDA version" 
+      exit -1 # Command to come out of the program with status -1
+      ;; 
+esac
 
 echo "############# Step 2 of 4 ###################################"
 echo "- Downloading mmdet"
