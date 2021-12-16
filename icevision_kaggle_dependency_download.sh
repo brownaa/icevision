@@ -37,37 +37,23 @@ case ${target} in
    ;;
 
 
-echo ""
-echo ""
-echo ""
 echo "############# Step 2 of 4 ###################################"
 echo "- Downloading mmdet"
 pip download --dest "." mmdet==2.17.0
 
-echo ""
-echo ""
-echo ""
 echo "############# Step 3 of 4 ###################################"
 echo "- Downloading icevision from PyPi"
 pip download --dest "." icevision[all]
 
-echo ""
 echo "- Downloading icedata from PyPi"      
 pip download --dest "." icedata
 
-echo ""
 echo "- Downloading yolov5-icevision" 
 pip download --dest "." yolov5-icevision
 
-echo ""
-echo ""
-echo ""
 echo "############# Step 4 of 4 ###################################"
 echo "- Downloading torchtext"
 pip download --dest "." torchtext==0.11.0
 
-echo ""
-echo ""
-echo ""
 echo "############# Done!       ###################################"
 echo "icevision download finished!"  
