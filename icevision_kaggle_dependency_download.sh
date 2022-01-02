@@ -34,14 +34,8 @@ pip download --dest "." mmdet==2.17.0
 
 echo "############# Step 3 of 4 ###################################"
 echo "- Downloading icevision from PyPi"
-pip download --dest "." icevision
-pip download --dest "." pycocotools<3
-pip download --dest "." loguru>=0.5.3
-pip download --dest "." pytorch-lightning>1.4.5
-pip download --dest "." effdet<0.3
-pip download --dest "." omegaconf<3
-#pip download --dest "." dataclasses==0.6
-pip download --dest "." resnest<0.0.7
+pip download --dest "." "pycocotools<3" "loguru>=0.5.3" "pytorch-lightning>1.4.5" "effdet<0.3" "omegaconf<3" "dataclasses==0.6" "resnest<0.0.7"
+pip download --dest "." icevision 
 
 
 echo "- Downloading icedata from PyPi"      
