@@ -1,0 +1,8 @@
+-r requirements.txt
+
+# ==========
+# additional requirements equivalent to pip install icevision[all]
+
+fastai>=2.5.2,<2.6
+pytorch-lightning>=1.4.5
+wandb>=0.10.7
