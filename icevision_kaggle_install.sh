@@ -16,7 +16,7 @@ cp -r ../input/icevision-essentials/icevision-repos/repos/fvcore-0.1.5.post20220
 pip install ./fvcore-0.1.5.post20220305 -q
 rm -r ./fvcore-0.1.5.post20220305
 
-!pip install --no-index ../input/icevision-essentials/icevision-repos/repos/pycocotools-2.0.2/dist/pycocotools-2.0.2.tar -q
+pip install --no-index ../input/icevision-essentials/icevision-repos/repos/pycocotools-2.0.2/dist/pycocotools-2.0.2.tar -q
 
 # requires pycocotools, 
-!pip install --no-index icevision[all] -f ../input/icevision-essentials/icevision-repos/repos -q
+pip install --no-index icevision[all] -f ../input/icevision-essentials/icevision-repos/repos -q
