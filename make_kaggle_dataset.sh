@@ -11,3 +11,7 @@ ls -l icevision-repos.tar.gz
 # remove folder
 rm -rf repos
 echo "repos directory removed"
+
+
+echo "Download Kaggle install script"
+wget https://raw.githubusercontent.com/brownaa/icevision/kaggle_install/icevision_kaggle_install.sh
