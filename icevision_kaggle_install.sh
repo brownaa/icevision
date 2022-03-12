@@ -32,4 +32,4 @@ echo ""
 rsync -a ../input/icevision-essentials/root/.config/Ultralytics/ /root/.config/Ultralytics/
 rsync -a ../input/icevision-essentials/root/.icevision /root
 
-echo "~~ Done ~~
+echo "~~ Done ~~"
