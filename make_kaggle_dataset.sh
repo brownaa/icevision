@@ -15,3 +15,10 @@ echo "repos directory removed"
 
 echo "Download Kaggle install script"
 wget https://raw.githubusercontent.com/brownaa/icevision/kaggle_install/icevision_kaggle_install.sh
+
+echo "~~ Downloading pretrained models ~~"
+
+echo "Downloading ResNet-18"
+# save to: /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+wget https://download.pytorch.org/models/resnet18-f37072fd.pth
+
