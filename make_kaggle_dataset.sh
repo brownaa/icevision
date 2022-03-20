@@ -22,3 +22,6 @@ echo "Downloading ResNet-18"
 # save to: /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
 wget https://download.pytorch.org/models/resnet18-f37072fd.pth
 
+echo "Downloading ResNet-34"
+# save to: /root/.cache/torch/hub/checkpoints/resnet34-b627a593.pth
+wget https://download.pytorch.org/models/resnet34-b627a593.pth
