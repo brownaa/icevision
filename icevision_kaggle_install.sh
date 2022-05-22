@@ -2,9 +2,7 @@ echo "~~ Installing IceVision requirements from source ~~"
 
 echo ""
 echo "### Installing antlr ###"
-cp -r ../input/icevision-essentials/icevision-repos/repos/antlr4-python3-runtime-4.8/antlr4-python3-runtime-4.8 /kaggle/working
-pip install ./antlr4-python3-runtime-4.8
-rm -r ./antlr4-python3-runtime-4.8
+pip install ../input/icevision-essentials/icevision-repos/repos/antlr4-python3-runtime-4.9.3/dist/antlr4-python3-runtime-4.9.3.tar
 
 echo ""
 echo "### Installing fire ###"
