@@ -12,9 +12,9 @@ echo ""
 echo "### Installing fvcore ###"
 echo " - requires iopath"
 pip install ../input/icevision-essentials/icevision-repos/repos/iopath-0.1.9-py3-none-any.whl
-cp -r ../input/icevision-essentials/icevision-repos/repos/fvcore-0.1.5.post20220305/fvcore-0.1.5.post20220305 /kaggle/working
-pip install ./fvcore-0.1.5.post20220305
-rm -r ./fvcore-0.1.5.post20220305
+cp -r ../input/icevision-essentials/icevision-repos/repos/fvcore-0.1.5.post20220512/fvcore-0.1.5.post20220512 /kaggle/working
+pip install ./fvcore-0.1.5.post20220512
+rm -r ./fvcore-0.1.5.post20220512
 
 echo ""
 echo "### Installing pycocotools ###"
